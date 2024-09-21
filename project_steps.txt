@@ -1,0 +1,25 @@
+1. Create GitHub repo
+2. Create a folder(mlproject) where we will code.Copy path of the folder
+3. Open anaconda prompt and paste specific path   ->cd D:\mlproject
+4. type ->code .  by doing this vs code instance is created an vs is opened
+5. open a new terminal and create a new environment by 
+      -> conda create -p venv python==3.8 -y
+6. activate the environment 
+      ->conda activate venv/
+7. sink the project with the github by running the following:
+    1. ->git init
+    2. create a README.md file and save it  ->git add README.md
+    3. ->git commit -m "first commit"
+    4. ->git branch -M main
+    5. ->git remote add origin https://github.com/AkshayD10/mlproject.git
+    6. ->git push -u origin main
+
+8. in GitHub 1.addfiles - 2.Create new file - 3.create a file named ".gitignore" and set the language as python - 4.commit changes 
+7. to update in vs type ->git pull   
+
+9. create 2 files setup.py(it will create our ML app as a package) and requirements.txt    
+10. write code in setup.py    
+11. create an src folder and in that create an __init__ file(Main project will be created here)
+12. write all the requirements or packages in requirements.py at the end of all requirements type -e . this will directly link it to setup.py 
+13. ->pip install -r requirements.txt
+          
