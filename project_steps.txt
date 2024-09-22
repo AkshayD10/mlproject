@@ -9,7 +9,7 @@
 7. sink the project with the github by running the following:
     1. ->git init
     2. create a README.md file and save it  ->git add README.md
-    3. ->git commit -m "first commit"
+    3. ->git commit -m "first commit"   we can write any message here
     4. ->git branch -M main
     5. ->git remote add origin https://github.com/AkshayD10/mlproject.git
     6. ->git push -u origin main
@@ -22,4 +22,33 @@
 11. create an src folder and in that create an __init__ file(Main project will be created here)
 12. write all the requirements or packages in requirements.py at the end of all requirements type -e . this will directly link it to setup.py 
 13. ->pip install -r requirements.txt
-          
+14. ->git add .  → Stages changes.
+    ->git commit -m "any message"  → Commits staged changes locally.
+    ->git push  → Pushes committed changes to your GitHub repository.
+
+15. In src folder create :
+       1. components folder:
+            1.__init__.py file
+            2.data_ingestion.py file         
+            3.data_transformation.py file
+            4.model_trainer.py file
+
+       2. pipeline folder:
+            1.__init__.py file
+            2.train_pipeline.py file
+            3.predict_pipeline.py file
+
+      3. logger.py file
+
+      4. exception.py file
+
+      5. utils.py file (These utility functions often contain general-purpose code that doesn't logically belong to any specific module or feature but is useful in multiple places.)
+
+
+
+
+
+
+
+
+
